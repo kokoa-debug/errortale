@@ -11,7 +11,7 @@ wait(0.5)
 game.Players.LocalPlayer.Character.Head.Voice:Destroy()
 game:GetService("Players").LocalPlayer.PlayerGui.Chat.Frame.ChatBarParentFrame.Frame.BoxFrame.BackgroundColor3 = Color3.new(0.8, 0, 1)
 game.Players.LocalPlayer:WaitForChild("StarterPlaylist")
-game.Players.LocalPlayer.StarterPlaylist["1Megalovania"]:Destroy()
+game.Players.LocalPlayer.StarterPlaylist["1Hopes and dreams"]:Destroy()
 local Sound = Instance.new("Sound")
 Sound.Parent = game.Players.LocalPlayer.StarterPlaylist
 Sound.Volume = 2
@@ -81,241 +81,208 @@ print("Loading Attacks")
                 [3] = {
                     ["HitTime"] = 20,
                     ["Type"] = "Normal",
-                    ["HitEffect"] = "WindEffect",
+                    ["HitEffect"] = "BigWindEffect",
                     ["VictimCFrame"] = CFrame.new(Vector3.new(957.38525390625, -2.7168080806732, 271.31875610352), Vector3.new(0.90182185173035, 0.0016235302900895, 0.43210506439209)),
                     ["HurtAnimation"] = game:GetService("ReplicatedStorage").Animations.HurtAnimations.Knockback2,
                     ["Velocity"] = Vector3.new(0, 0, -1),
                     ["Sound"] = game:GetService("ReplicatedStorage").Sounds.Knockback,
-                    ["Damage"] = 10
+                    ["Damage"] = 5
                 }
             }
     
     
             game:GetService("ReplicatedStorage").Remotes.Damage:InvokeServer(unpack(args))
-              local args = {
+           
+            local args = {
                 [1] = getrenv()._G.Pass,
                 [2] = game:service("Players").LocalPlayer.Backpack.Main.LockOnScript.LockOn.Value,
                 [3] = {
                     ["HitTime"] = 20,
                     ["Type"] = "Normal",
-                    ["HitEffect"] = "WindEffect",
+                    ["HitEffect"] = "BigWindEffect",
                     ["VictimCFrame"] = CFrame.new(Vector3.new(957.38525390625, -2.7168080806732, 271.31875610352), Vector3.new(0.90182185173035, 0.0016235302900895, 0.43210506439209)),
                     ["HurtAnimation"] = game:GetService("ReplicatedStorage").Animations.HurtAnimations.Knockback2,
                     ["Velocity"] = Vector3.new(0, 0, -1),
                     ["Sound"] = game:GetService("ReplicatedStorage").Sounds.Knockback,
-                    ["Damage"] = 10
+                    ["Damage"] = 5
                 }
             }
     
     
             game:GetService("ReplicatedStorage").Remotes.Damage:InvokeServer(unpack(args))
-              local args = {
+           
+            local args = {
                 [1] = getrenv()._G.Pass,
                 [2] = game:service("Players").LocalPlayer.Backpack.Main.LockOnScript.LockOn.Value,
                 [3] = {
                     ["HitTime"] = 20,
                     ["Type"] = "Normal",
-                    ["HitEffect"] = "WindEffect",
+                    ["HitEffect"] = "BigWindEffect",
                     ["VictimCFrame"] = CFrame.new(Vector3.new(957.38525390625, -2.7168080806732, 271.31875610352), Vector3.new(0.90182185173035, 0.0016235302900895, 0.43210506439209)),
                     ["HurtAnimation"] = game:GetService("ReplicatedStorage").Animations.HurtAnimations.Knockback2,
                     ["Velocity"] = Vector3.new(0, 0, -1),
                     ["Sound"] = game:GetService("ReplicatedStorage").Sounds.Knockback,
-                    ["Damage"] = 10
+                    ["Damage"] = 3
                 }
             }
     
     
             game:GetService("ReplicatedStorage").Remotes.Damage:InvokeServer(unpack(args))
-              local args = {
+            local args = {
                 [1] = getrenv()._G.Pass,
                 [2] = game:service("Players").LocalPlayer.Backpack.Main.LockOnScript.LockOn.Value,
                 [3] = {
                     ["HitTime"] = 20,
                     ["Type"] = "Normal",
-                    ["HitEffect"] = "WindEffect",
+                    ["HitEffect"] = "BigWindEffect",
                     ["VictimCFrame"] = CFrame.new(Vector3.new(957.38525390625, -2.7168080806732, 271.31875610352), Vector3.new(0.90182185173035, 0.0016235302900895, 0.43210506439209)),
                     ["HurtAnimation"] = game:GetService("ReplicatedStorage").Animations.HurtAnimations.Knockback2,
                     ["Velocity"] = Vector3.new(0, 0, -1),
                     ["Sound"] = game:GetService("ReplicatedStorage").Sounds.Knockback,
-                    ["Damage"] = 10
+                    ["Damage"] = 3
                 }
             }
     
     
             game:GetService("ReplicatedStorage").Remotes.Damage:InvokeServer(unpack(args))
-              local args = {
+            local args = {
                 [1] = getrenv()._G.Pass,
                 [2] = game:service("Players").LocalPlayer.Backpack.Main.LockOnScript.LockOn.Value,
                 [3] = {
                     ["HitTime"] = 20,
                     ["Type"] = "Normal",
-                    ["HitEffect"] = "WindEffect",
+                    ["HitEffect"] = "BigWindEffect",
                     ["VictimCFrame"] = CFrame.new(Vector3.new(957.38525390625, -2.7168080806732, 271.31875610352), Vector3.new(0.90182185173035, 0.0016235302900895, 0.43210506439209)),
                     ["HurtAnimation"] = game:GetService("ReplicatedStorage").Animations.HurtAnimations.Knockback2,
                     ["Velocity"] = Vector3.new(0, 0, -1),
                     ["Sound"] = game:GetService("ReplicatedStorage").Sounds.Knockback,
-                    ["Damage"] = 10
+                    ["Damage"] = 3
                 }
             }
     
     
             game:GetService("ReplicatedStorage").Remotes.Damage:InvokeServer(unpack(args))
-              local args = {
+            local args = {
                 [1] = getrenv()._G.Pass,
                 [2] = game:service("Players").LocalPlayer.Backpack.Main.LockOnScript.LockOn.Value,
                 [3] = {
                     ["HitTime"] = 20,
                     ["Type"] = "Normal",
-                    ["HitEffect"] = "WindEffect",
+                    ["HitEffect"] = "BigWindEffect",
                     ["VictimCFrame"] = CFrame.new(Vector3.new(957.38525390625, -2.7168080806732, 271.31875610352), Vector3.new(0.90182185173035, 0.0016235302900895, 0.43210506439209)),
                     ["HurtAnimation"] = game:GetService("ReplicatedStorage").Animations.HurtAnimations.Knockback2,
                     ["Velocity"] = Vector3.new(0, 0, -1),
                     ["Sound"] = game:GetService("ReplicatedStorage").Sounds.Knockback,
-                    ["Damage"] = 10
+                    ["Damage"] = 3
                 }
             }
     
     
             game:GetService("ReplicatedStorage").Remotes.Damage:InvokeServer(unpack(args))
-              local args = {
+            local args = {
                 [1] = getrenv()._G.Pass,
                 [2] = game:service("Players").LocalPlayer.Backpack.Main.LockOnScript.LockOn.Value,
                 [3] = {
                     ["HitTime"] = 20,
                     ["Type"] = "Normal",
-                    ["HitEffect"] = "WindEffect",
+                    ["HitEffect"] = "BigWindEffect",
                     ["VictimCFrame"] = CFrame.new(Vector3.new(957.38525390625, -2.7168080806732, 271.31875610352), Vector3.new(0.90182185173035, 0.0016235302900895, 0.43210506439209)),
                     ["HurtAnimation"] = game:GetService("ReplicatedStorage").Animations.HurtAnimations.Knockback2,
                     ["Velocity"] = Vector3.new(0, 0, -1),
                     ["Sound"] = game:GetService("ReplicatedStorage").Sounds.Knockback,
-                    ["Damage"] = 10
+                    ["Damage"] = 3
                 }
             }
     
     
             game:GetService("ReplicatedStorage").Remotes.Damage:InvokeServer(unpack(args))
-              local args = {
+            local args = {
                 [1] = getrenv()._G.Pass,
                 [2] = game:service("Players").LocalPlayer.Backpack.Main.LockOnScript.LockOn.Value,
                 [3] = {
                     ["HitTime"] = 20,
                     ["Type"] = "Normal",
-                    ["HitEffect"] = "WindEffect",
+                    ["HitEffect"] = "BigWindEffect",
                     ["VictimCFrame"] = CFrame.new(Vector3.new(957.38525390625, -2.7168080806732, 271.31875610352), Vector3.new(0.90182185173035, 0.0016235302900895, 0.43210506439209)),
                     ["HurtAnimation"] = game:GetService("ReplicatedStorage").Animations.HurtAnimations.Knockback2,
                     ["Velocity"] = Vector3.new(0, 0, -1),
                     ["Sound"] = game:GetService("ReplicatedStorage").Sounds.Knockback,
-                    ["Damage"] = 10
+                    ["Damage"] = 3
                 }
             }
     
     
             game:GetService("ReplicatedStorage").Remotes.Damage:InvokeServer(unpack(args))
-              local args = {
+            local args = {
                 [1] = getrenv()._G.Pass,
                 [2] = game:service("Players").LocalPlayer.Backpack.Main.LockOnScript.LockOn.Value,
                 [3] = {
                     ["HitTime"] = 20,
                     ["Type"] = "Normal",
-                    ["HitEffect"] = "WindEffect",
+                    ["HitEffect"] = "BigWindEffect",
                     ["VictimCFrame"] = CFrame.new(Vector3.new(957.38525390625, -2.7168080806732, 271.31875610352), Vector3.new(0.90182185173035, 0.0016235302900895, 0.43210506439209)),
                     ["HurtAnimation"] = game:GetService("ReplicatedStorage").Animations.HurtAnimations.Knockback2,
                     ["Velocity"] = Vector3.new(0, 0, -1),
                     ["Sound"] = game:GetService("ReplicatedStorage").Sounds.Knockback,
-                    ["Damage"] = 10
+                    ["Damage"] = 3
                 }
             }
     
     
             game:GetService("ReplicatedStorage").Remotes.Damage:InvokeServer(unpack(args))
-              local args = {
+            local args = {
                 [1] = getrenv()._G.Pass,
                 [2] = game:service("Players").LocalPlayer.Backpack.Main.LockOnScript.LockOn.Value,
                 [3] = {
                     ["HitTime"] = 20,
                     ["Type"] = "Normal",
-                    ["HitEffect"] = "WindEffect",
+                    ["HitEffect"] = "BigWindEffect",
                     ["VictimCFrame"] = CFrame.new(Vector3.new(957.38525390625, -2.7168080806732, 271.31875610352), Vector3.new(0.90182185173035, 0.0016235302900895, 0.43210506439209)),
                     ["HurtAnimation"] = game:GetService("ReplicatedStorage").Animations.HurtAnimations.Knockback2,
                     ["Velocity"] = Vector3.new(0, 0, -1),
                     ["Sound"] = game:GetService("ReplicatedStorage").Sounds.Knockback,
-                    ["Damage"] = 10
+                    ["Damage"] = 3
                 }
             }
     
     
             game:GetService("ReplicatedStorage").Remotes.Damage:InvokeServer(unpack(args))
-              local args = {
+            local args = {
                 [1] = getrenv()._G.Pass,
                 [2] = game:service("Players").LocalPlayer.Backpack.Main.LockOnScript.LockOn.Value,
                 [3] = {
                     ["HitTime"] = 20,
                     ["Type"] = "Normal",
-                    ["HitEffect"] = "WindEffect",
+                    ["HitEffect"] = "BigWindEffect",
                     ["VictimCFrame"] = CFrame.new(Vector3.new(957.38525390625, -2.7168080806732, 271.31875610352), Vector3.new(0.90182185173035, 0.0016235302900895, 0.43210506439209)),
                     ["HurtAnimation"] = game:GetService("ReplicatedStorage").Animations.HurtAnimations.Knockback2,
                     ["Velocity"] = Vector3.new(0, 0, -1),
                     ["Sound"] = game:GetService("ReplicatedStorage").Sounds.Knockback,
-                    ["Damage"] = 10
+                    ["Damage"] = 3
                 }
             }
     
     
             game:GetService("ReplicatedStorage").Remotes.Damage:InvokeServer(unpack(args))
-              local args = {
+            local args = {
                 [1] = getrenv()._G.Pass,
                 [2] = game:service("Players").LocalPlayer.Backpack.Main.LockOnScript.LockOn.Value,
                 [3] = {
                     ["HitTime"] = 20,
                     ["Type"] = "Normal",
-                    ["HitEffect"] = "WindEffect",
+                    ["HitEffect"] = "BigWindEffect",
                     ["VictimCFrame"] = CFrame.new(Vector3.new(957.38525390625, -2.7168080806732, 271.31875610352), Vector3.new(0.90182185173035, 0.0016235302900895, 0.43210506439209)),
                     ["HurtAnimation"] = game:GetService("ReplicatedStorage").Animations.HurtAnimations.Knockback2,
                     ["Velocity"] = Vector3.new(0, 0, -1),
                     ["Sound"] = game:GetService("ReplicatedStorage").Sounds.Knockback,
-                    ["Damage"] = 10
+                    ["Damage"] = 3
                 }
             }
     
     
             game:GetService("ReplicatedStorage").Remotes.Damage:InvokeServer(unpack(args))
-              local args = {
-                [1] = getrenv()._G.Pass,
-                [2] = game:service("Players").LocalPlayer.Backpack.Main.LockOnScript.LockOn.Value,
-                [3] = {
-                    ["HitTime"] = 20,
-                    ["Type"] = "Normal",
-                    ["HitEffect"] = "WindEffect",
-                    ["VictimCFrame"] = CFrame.new(Vector3.new(957.38525390625, -2.7168080806732, 271.31875610352), Vector3.new(0.90182185173035, 0.0016235302900895, 0.43210506439209)),
-                    ["HurtAnimation"] = game:GetService("ReplicatedStorage").Animations.HurtAnimations.Knockback2,
-                    ["Velocity"] = Vector3.new(0, 0, -1),
-                    ["Sound"] = game:GetService("ReplicatedStorage").Sounds.Knockback,
-                    ["Damage"] = 10
-                }
-            }
     
-    
-            game:GetService("ReplicatedStorage").Remotes.Damage:InvokeServer(unpack(args))
-              local args = {
-                [1] = getrenv()._G.Pass,
-                [2] = game:service("Players").LocalPlayer.Backpack.Main.LockOnScript.LockOn.Value,
-                [3] = {
-                    ["HitTime"] = 10,
-                    ["Type"] = "Normal",
-                    ["HitEffect"] = "HateHitEffect",
-                    ["VictimCFrame"] = CFrame.new(Vector3.new(957.38525390625, -2.7168080806732, 271.31875610352), Vector3.new(0.90182185173035, 0.0016235302900895, 0.43210506439209)),
-                    ["HurtAnimation"] = game:GetService("ReplicatedStorage").Animations.HurtAnimations.Knockback2,
-                    ["Velocity"] = Vector3.new(0, 0, -1),
-                    ["Sound"] = game:GetService("ReplicatedStorage").Sounds.Knockback,
-                    ["Damage"] = 10
-                }
-            }
-    
-
-    
-    
-            game:GetService("ReplicatedStorage").Remotes.Damage:InvokeServer(unpack(args))
-             local args = {
+ local args = {
                 [1] = getrenv()._G.Pass,
                 [2] = game:service("Players").LocalPlayer.Backpack.Main.LockOnScript.LockOn.Value,
                 [3] = {
@@ -324,13 +291,122 @@ print("Loading Attacks")
                     ["HitEffect"] = "UndyingExplosion",
                     ["VictimCFrame"] = CFrame.new(Vector3.new(957.38525390625, -2.7168080806732, 271.31875610352), Vector3.new(0.90182185173035, 0.0016235302900895, 0.43210506439209)),
                     ["HurtAnimation"] = game:GetService("ReplicatedStorage").Animations.HurtAnimations.Knockback2,
-                    ["Velocity"] = Vector3.new(0, 0, -1),
+                    ["Velocity"] = Vector3.new(5, 0, -1),
                     ["Sound"] = game:GetService("ReplicatedStorage").Sounds.Knockback,
-                    ["Damage"] = 10
+                    ["Damage"] = 3
                 }
             }
     
     
             game:GetService("ReplicatedStorage").Remotes.Damage:InvokeServer(unpack(args))
+  
+   local args = {
+                [1] = getrenv()._G.Pass,
+                [2] = game:service("Players").LocalPlayer.Backpack.Main.LockOnScript.LockOn.Value,
+                [3] = {
+                    ["HitTime"] = 20,
+                    ["Type"] = "Normal",
+                    ["HitEffect"] = "HateHitEffect", -- HateHitEffe
+                    ["VictimCFrame"] = CFrame.new(Vector3.new(957.38525390625, -2.7168080806732, 271.31875610352), Vector3.new(0.90182185173035, 0.0016235302900895, 0.43210506439209)),
+                    ["HurtAnimation"] = game:GetService("ReplicatedStorage").Animations.HurtAnimations.Knockback2,
+                    ["Velocity"] = Vector3.new(0, 0, -1),
+                    ["Sound"] = game:GetService("ReplicatedStorage").Sounds.Knockback,
+                    ["Damage"] = 3
+                }
+            }
+    
+    
+            game:GetService("ReplicatedStorage").Remotes.Damage:InvokeServer(unpack(args))
+ 
+    local args = {
+                [1] = getrenv()._G.Pass,
+                [2] = game:service("Players").LocalPlayer.Backpack.Main.LockOnScript.LockOn.Value,
+                [3] = {
+                    ["HitTime"] = 20,
+                    ["Type"] = "Normal",
+                    ["HitEffect"] = "HateHitEffect",
+                    ["VictimCFrame"] = CFrame.new(Vector3.new(957.38525390625, -2.7168080806732, 271.31875610352), Vector3.new(0.90182185173035, 0.0016235302900895, 0.43210506439209)),
+                    ["HurtAnimation"] = game:GetService("ReplicatedStorage").Animations.HurtAnimations.Knockback2,
+                    ["Velocity"] = Vector3.new(0, 0, -1),
+                    ["Sound"] = game:GetService("ReplicatedStorage").Sounds.Knockback,
+                    ["Damage"] = 3
+                }
+            }
+    
+    
+            game:GetService("ReplicatedStorage").Remotes.Damage:InvokeServer(unpack(args))
+ 
+    local args = {
+                [1] = getrenv()._G.Pass,
+                [2] = game:service("Players").LocalPlayer.Backpack.Main.LockOnScript.LockOn.Value,
+                [3] = {
+                    ["HitTime"] = 20,
+                    ["Type"] = "Normal",
+                    ["HitEffect"] = "HateHitEffect",
+                    ["VictimCFrame"] = CFrame.new(Vector3.new(957.38525390625, -2.7168080806732, 271.31875610352), Vector3.new(0.90182185173035, 0.0016235302900895, 0.43210506439209)),
+                    ["HurtAnimation"] = game:GetService("ReplicatedStorage").Animations.HurtAnimations.Knockback2,
+                    ["Velocity"] = Vector3.new(0, 0, -1),
+                    ["Sound"] = game:GetService("ReplicatedStorage").Sounds.Knockback,
+                    ["Damage"] = 3
+                }
+            }
+    
+    
+            game:GetService("ReplicatedStorage").Remotes.Damage:InvokeServer(unpack(args))
+ 
+    local args = {
+                [1] = getrenv()._G.Pass,
+                [2] = game:service("Players").LocalPlayer.Backpack.Main.LockOnScript.LockOn.Value,
+                [3] = {
+                    ["HitTime"] = 20,
+                    ["Type"] = "Normal",
+                    ["HitEffect"] = "HateHitEffect",
+                    ["VictimCFrame"] = CFrame.new(Vector3.new(957.38525390625, -2.7168080806732, 271.31875610352), Vector3.new(0.90182185173035, 0.0016235302900895, 0.43210506439209)),
+                    ["HurtAnimation"] = game:GetService("ReplicatedStorage").Animations.HurtAnimations.Knockback2,
+                    ["Velocity"] = Vector3.new(0, 0, -1),
+                    ["Sound"] = game:GetService("ReplicatedStorage").Sounds.Knockback,
+                    ["Damage"] = 3
+                }
+            }
+    
+    
+            game:GetService("ReplicatedStorage").Remotes.Damage:InvokeServer(unpack(args))
+ 
+    local args = {
+                [1] = getrenv()._G.Pass,
+                [2] = game:service("Players").LocalPlayer.Backpack.Main.LockOnScript.LockOn.Value,
+                [3] = {
+                    ["HitTime"] = 20,
+                    ["Type"] = "Normal",
+                    ["HitEffect"] = "HateHitEffect",
+                    ["VictimCFrame"] = CFrame.new(Vector3.new(957.38525390625, -2.7168080806732, 271.31875610352), Vector3.new(0.90182185173035, 0.0016235302900895, 0.43210506439209)),
+                    ["HurtAnimation"] = game:GetService("ReplicatedStorage").Animations.HurtAnimations.Knockback2,
+                    ["Velocity"] = Vector3.new(0, 0, -1),
+                    ["Sound"] = game:GetService("ReplicatedStorage").Sounds.Knockback,
+                    ["Damage"] = 3
+                }
+            }
+    
+    
+            game:GetService("ReplicatedStorage").Remotes.Damage:InvokeServer(unpack(args))
+ local args = {
+                [1] = getrenv()._G.Pass,
+                [2] = game:service("Players").LocalPlayer.Backpack.Main.LockOnScript.LockOn.Value,
+                [3] = {
+                    ["HitTime"] = 20,
+                    ["Type"] = "Normal",
+                    ["HitEffect"] = "UndyingExplosion",
+                    ["VictimCFrame"] = CFrame.new(Vector3.new(957.38525390625, -2.7168080806732, 271.31875610352), Vector3.new(0.90182185173035, 0.0016235302900895, 0.43210506439209)),
+                    ["HurtAnimation"] = game:GetService("ReplicatedStorage").Animations.HurtAnimations.Knockback2,
+                    ["Velocity"] = Vector3.new(0, 0, 5),
+                    ["Sound"] = game:GetService("ReplicatedStorage").Sounds.Knockback,
+                    ["Damage"] = 3
+                }
+            }
+    
+    
+            game:GetService("ReplicatedStorage").Remotes.Damage:InvokeServer(unpack(args))
+  
+ 
         end
         end)
