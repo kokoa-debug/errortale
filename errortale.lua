@@ -418,10 +418,10 @@ mouse.KeyDown:Connect(function(k)
 				["Type"] = "Normal",
 				["HitEffect"] = "SpearJusticeExplosion",
 				["VictimCFrame"] = CFrame.new(Vector3.new(957.38525390625, -2.7168080806732, 271.31875610352), Vector3.new(0.90182185173035, 0.0016235302900895, 0.43210506439209)),
-				["HurtAnimation"] = game:GetService("ReplicatedStorage").Animations.HurtAnimations.Knockback2,
+				["HurtAnimation"] = game:GetService("ReplicatedStorage").Animations.HurtAnimations.Knockback,
 				["Velocity"] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame.lookVector * 45,
 				["Sound"] = game:GetService("ReplicatedStorage").Sounds.HateExplosion,
-				["Damage"] = 5
+				["Damage"] = 10
 			}
 		}
 
